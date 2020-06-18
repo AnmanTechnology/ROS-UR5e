@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="robot_ip" value="127.0.0.1"/>
+    <arg name="kinematics_config" value="$(find ros_ur5e)/config/ur5e_sim.yaml"/>
+
+    <include file="$(find ur_robot_driver)/launch/ur5e_bringup.launch">
+        <arg name="robot_ip" value="$(arg robot_ip)"/>
+        <arg name="kinematics_config" value="$(arg kinematics_config)"/>
+        <!-- <arg name="tf_prefix" value="ur1"/> -->
+    </include>
+</launch>

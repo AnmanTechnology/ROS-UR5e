@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/sweilz/tt_ws/devel/include/**",
+                "/home/sweilz/ancube_ws/devel/include/**",
+                "/home/sweilz/chin_ws/devel/include/**",
+                "/home/sweilz/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/sweilz/ancube_ws/src/anman_ancube_x/include/**",
+                "/home/sweilz/tt_ws/src/Universal_Robots_ROS_Driver/controller_stopper/include/**",
+                "/home/sweilz/tt_ws/src/ROS-UR5e/include/**",
+                "/home/sweilz/catkin_ws/src/test_moveit/include/**",
+                "/home/sweilz/tt_ws/src/Universal_Robots_ROS_Driver/ur_calibration/include/**",
+                "/home/sweilz/tt_ws/src/Universal_Robots_ROS_Driver/ur_controllers/include/**",
+                "/home/sweilz/tt_ws/src/Universal_Robots_ROS_Driver/ur_robot_driver/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

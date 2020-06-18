@@ -1,0 +1,2 @@
+roslaunch ur_calibration calibration_correction.launch robot_ip:=10.42.0.31 target_filename:="$(rospack find ros_ur5e)/config/ur5eA.yaml"
+roslaunch ur_calibration calibration_correction.launch robot_ip:=10.42.0.32 target_filename:="$(rospack find ros_ur5e)/config/ur5eB.yaml"
