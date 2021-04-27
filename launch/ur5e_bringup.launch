@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <launch>
-    <arg name="robot_ip_ur5eA" value="10.42.0.31"/>
+    <arg name="robot_ip_ur5eA" value="192.168.1.31"/>
     <arg name="kinematics_ur5eA" value="$(find ros_ur5e)/config/ur5eA.yaml"/>
 
-    <arg name="robot_ip_ur5eB" value="10.42.0.32"/>
+    <arg name="robot_ip_ur5eB" value="192.168.1.32"/>
     <arg name="kinematics_ur5eB" value="$(find ros_ur5e)/config/ur5eB.yaml"/>
 
 
